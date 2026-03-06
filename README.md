@@ -518,15 +518,8 @@ class MyConfig implements Config {
 
 - [微信支付 v3 开发文档](https://pay.weixin.qq.com/wiki/doc/apiv3/index.shtml)
 - [商家转账用户确认模式](https://pay.weixin.qq.com/doc/v3/merchant/4012711988)
-- [GitHub Issues](https://github.com/klover2/wechatpay-nodev3-ts/issues)
+- [GitHub Issues](https://github.com/dianbu/wechatpay-nodev3/issues)
 
-## 贡献
-
-欢迎提交 [Bug 或建议](https://github.com/klover2/wechatpay-nodev3-ts/issues)。
-
-<a href="https://github.com/klover2/wechatpay-nodev3-ts/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=klover2/wechatpay-nodev3-ts" />
-</a>
 
 ## 许可证
 
