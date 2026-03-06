@@ -14,13 +14,13 @@
     "typescript",
     "sdk"
   ],
-  "homepage": "https://github.com/klover2/wechatpay-nodev3-ts#readme",
+  "homepage": "https://github.com/dianbu/wechatpay-nodev3#readme",
   "bugs": {
-    "url": "https://github.com/klover2/wechatpay-nodev3-ts/issues"
+    "url": "https://github.com/dianbu/wechatpay-nodev3/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/klover2/wechatpay-nodev3-ts.git"
+    "url": "git+https://github.com/dianbu/wechatpay-nodev3.git"
   },
   "license": "MIT",
   "author": "klover",
