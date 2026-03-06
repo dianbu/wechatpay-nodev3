@@ -1,0 +1,10 @@
+node_modules
+dist
+test
+.vscode
+yarn.lock
+test.ts
+test/*
+package-lock.json
+*.log
+.DS_Store

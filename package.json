@@ -1,0 +1,61 @@
+{
+  "name": "wechatpay-nodev3",
+  "version": "3.0.0",
+  "description": "微信支付 API v3 SDK for Node.js，支持 TypeScript 和 JavaScript",
+  "keywords": [
+    "wechatpay",
+    "wechat",
+    "微信支付",
+    "微信提现",
+    "微信支付v3",
+    "wechatpay-v3",
+    "wxpay",
+    "nodejs",
+    "typescript",
+    "sdk"
+  ],
+  "homepage": "https://github.com/klover2/wechatpay-nodev3-ts#readme",
+  "bugs": {
+    "url": "https://github.com/klover2/wechatpay-nodev3-ts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klover2/wechatpay-nodev3-ts.git"
+  },
+  "license": "MIT",
+  "author": "klover",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prebuild": "node -e \"require('fs').rmSync('./dist', {recursive:true, force:true})\"",
+    "prepublishOnly": "npm run build",
+    "release": "npm publish --registry=https://registry.npmjs.org/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@fidm/x509": "1.2.1",
+    "superagent": "8.0.6"
+  },
+  "devDependencies": {
+    "@nestjs/common": "8.2.4",
+    "@types/node": "14.14.12",
+    "@types/superagent": "4.1.10",
+    "@typescript-eslint/eslint-plugin": "3.0.2",
+    "@typescript-eslint/parser": "3.0.2",
+    "eslint": "7.1.0",
+    "eslint-config-prettier": "6.10.0",
+    "eslint-plugin-import": "2.20.1",
+    "prettier": "1.19.1",
+    "ts-node": "9.1.1",
+    "typescript": "4.1.2"
+  }
+}
