@@ -1,12 +1,9 @@
 
-<p style="text-align: center;">
-  <h1 align="center"><a href="javascript:void(0);">wechatpay-nodev3</a></h1>
-</p>
-
 
 # 微信支付 v3 SDK（TypeScript）
 
 ## 简介
+本接口由上海点步技术 www.ydoo.cn 根据微信支付官方JAVA版本，使用ai对照开发完成，已经在实际项目中实际使用验证过接口没有问题。
 
 微信支付 Node.js SDK v3 版本，对标微信支付官方 Java SDK，提供完整的微信支付 API v3 接口封装，支持 TypeScript 和 JavaScript 项目。
 
@@ -21,9 +18,9 @@
 ## 安装
 
 ```bash
-npm install wechatpay-nodev3@3.0.0
+npm install wxpay-sdk-v3
 # 或
-yarn add wechatpay-nodev3@3.0.0
+yarn add wxpay-sdk-v3
 ```
 
 ## 快速开始
@@ -31,7 +28,7 @@ yarn add wechatpay-nodev3@3.0.0
 ### 1. 基础配置
 
 ```typescript
-import { RSAConfig } from 'wechatpay-nodev3';
+import { RSAConfig } from 'wxpay-sdk-v3';
 import fs from 'fs';
 
 // 使用 RSAConfig 配置
